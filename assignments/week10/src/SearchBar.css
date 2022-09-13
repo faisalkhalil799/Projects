@@ -1,0 +1,15 @@
+label{
+margin: 10px;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.input-div{
+    padding: 15px;
+    width: 100%;
+    background-color: coral;
+}

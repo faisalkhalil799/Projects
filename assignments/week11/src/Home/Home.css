@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+h1{
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    color: #032e3e;
+}
+
+.white-color{
+    color: white;
+}
+
+p{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4rem;
+}
+
+.not-bold{
+    font-weight: normal;
+}
+
+
+.banner1{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    position: relative;
+}
+
+.banner1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.banner1 .showcase-text{
+    position: absolute;
+    top: 50px;
+    right: 60px;
+}
+
+.banner1 .showcase-text h1{
+    color: white;
+}
+
+
+.my-2{
+    margin-top: 40px;
+}
+
+#section-a{
+    width: 100%;
+    background: #f8f9fb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#section-a #services .icon{
+    width: 200px;
+    height: 200px;
+}
+
+#section-a #services{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#services {
+    width: 80%;
+    margin-top: 20px;
+}
+
+#services p{
+    color: #032e3e;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#section-a #services #my-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#services img{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100px;
+}
+
+h1{
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.my-3{
+    margin-bottom: 40px;
+}
+
+#container-banner2{
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+#container-banner2 img{
+    width: 100%;
+    height: 100%;
+}
+
+
+#container-banner2 #showcase-content{
+   position: absolute;
+   top: 30px;
+   left: 30px;
+   z-index: 1;
+}
+
+#container-banner2 #showcase-content p{
+    color: white;
+}
+
+
+
+#section-c{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.grid{
+    max-width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.grid .grid-items p{
+    top: 50%;
+    width: max-content;
+    left: 25%;
+}
+
+.grid-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #cccccc;
+    height: 150px;
+    margin-left: 10px;
+    width: 150px;
+    opacity: 0.4;
+    margin-bottom: 10px;
+}
+
+
+

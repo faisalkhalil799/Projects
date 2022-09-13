@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.main-div{
+    width: 400px;
+    border-color: black;
+    background: #E0E0E0;
+    border-style: solid;
+    border-radius: 15px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.flex-div{
+    background: #2f525f;
+    /* margin: 10px; */
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: center;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+.blogs{
+    padding: 10px;
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+.my{
+    margin-top: 15px;
+}
+
+h5{
+    color: coral;
+}

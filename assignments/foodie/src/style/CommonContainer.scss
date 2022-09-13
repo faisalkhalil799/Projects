@@ -1,0 +1,39 @@
+.company-container {
+    display: flex;
+    justify-content: center;
+    background-color: #f5fbfc;
+    background-image: url('../images/YumYum.png');
+    background-repeat: no-repeat;
+    background-position: center;
+
+    .container-flex {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+
+
+        .container-width{
+            font-family: "Arial" sans-serif;
+            height: fit-content !important;
+        }
+
+        
+
+        h1 {
+            width: 200px;
+            font-size: 60px;
+            text-align: center;
+
+            @media screen and (max-width: 350px) {
+                width: 100%;
+              }
+
+            span {
+                color: #35b8be;
+            }
+        }
+    }
+}

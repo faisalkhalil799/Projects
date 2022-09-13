@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>ToDo List</title>
+</head>
+
+<body>
+    <div class="main-div">
+        <div class="container">
+
+            <header class="header">
+                <h1 class="mb-4">Todo List</h1>
+                <h4 class="sort-by-name">sort by name</h4>
+                <h4 class="sort-by-time">sort by time</h4>
+                <form class="search">
+                    <input class="form-control" type="text" name="search" placeholder="search todos" />
+                </form>
+            </header>
+
+            <ul class="list-group todos">
+                <!-- <li class="list-group-item">
+                    <span>play mariokart</span>
+                    <i class="far fa-trash-alt delete"></i>
+                </li>
+                <li class="list-group-item">
+                    <span>defeat ganon in zelda</span>
+                    <i class="far fa-trash-alt delete"></i>
+                </li>
+                <li class="list-group-item">
+                    <span>make a veggie pie</span>
+                    <i class="far fa-trash-alt delete"></i>
+                </li> -->
+            </ul>
+
+            <form class="add">
+                <label class="text-light">Add a new todo...</label><br>
+                <input class="form-control m-auto" type="text" name="add" placeholder="Add new ToDo" />
+                <button type="submit" class="btn">Add new todo</button>
+            </form>
+
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+a{
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.item:hover{
+    background: #2f525f;
+}

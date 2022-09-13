@@ -1,0 +1,20 @@
+.items{
+    color: #E0E0E0;
+    border-color: #E0E0E0;
+    background: transparent;
+    align-items: center;
+    background-color: #093E58;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    width: 150px;
+    margin: 10px;
+    border-style: solid;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.items:hover{
+    background: #2C7BA2;
+    color: white;
+}

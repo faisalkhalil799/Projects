@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+h1{
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    color: #032e3e;
+}
+
+p{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4rem;
+}
+
+.not-bold{
+    font-weight: normal;
+}
+
+#main-nav{
+    background: #032e3e;
+    top: 0;
+    /* position: sticky; */
+}
+
+#main-nav .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#main-nav ul{
+    justify-self: center;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 10px;
+}
+
+#main-nav ul li a{
+    padding: 0.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+#main-nav ul li a:hover{
+    background: #2f525f;
+}
+
+.nav-items{
+    align-items: center;
+    width: 80%;
+}
+
+#showcase{
+    width: 100%;
+    color: white;
+    background: #333;
+    height: 100vh;
+    padding: 2rem;
+    position: relative;
+}
+
+
+#section-b{
+    color: white;
+    background: #333;
+    height: 100vh;
+    padding: 2rem;
+    position: relative;
+}
+
+#showcase::before{
+    content: '';
+    background: url('images/banner-1.png') no-repeat center center/cover;
+    position: absolute; 
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+}
+
+#showcase #showcase-container{
+    display: flex;
+    justify-content: end;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+#section-b #showcase-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* justify-content: center; */
+    /* align-items: center; */
+    height: 100vh;
+}
+
+#showcase #showcase-content{
+    margin-top: 50px;
+    margin-right: 70px;
+    z-index: 1;
+}
+
+.my-3{
+    margin-bottom: 40px;
+}
+
+.my-2{
+    margin-top: 40px;
+}
+
+#section-a{
+    width: 100%;
+    background: #f8f9fb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#section-a #services .icon{
+    width: 200px;
+    height: 200px;
+}
+
+#section-a #services{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#services {
+    width: 80%;
+    margin-top: 30px;
+}
+
+#services p{
+    color: #032e3e;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+#section-a #services #my-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#section-b{
+    height: 600px;
+    margin-top: 25px;
+}
+
+
+#section-b::before{
+    content: '';
+    top: 0;
+    right: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* opacity: 0.5; */
+    background: url('/images/banner-2.png') no-repeat center center/cover;
+}
+
+#section-b #showcase-content{
+    z-index: 1;
+}
+
+#section-c{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.grid{
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 1;
+    margin-top: 10px;
+}
+
+.grid .grid-items p{
+    position: relative;
+    top: 50%;
+    width: max-content;
+    left: 25%;
+}
+
+.grid-items{
+    background: #cccccc;
+    height: 150px;
+    margin-left: 10px;
+    flex-shrink: 1;
+    width: 150px;
+    opacity: 0.4;
+}
+
+@media only screen and (max-width: 600px) {
+    #main-nav ul{
+        justify-self: center;
+        display: flex;
+        align-items: center;
+        line-height: 3rem;
+        flex-direction: column;
+        list-style: none;
+        padding: 10px;
+    }
+
+    .grid-items{
+        background: #cccccc;
+        height: 20px;
+        margin-left: 10px;
+        flex-shrink: 1;
+        width: 20px;
+        opacity: 0.4;
+    }
+
+    .grid .grid-items p{
+        position: relative;
+        top: 50%;
+        font-size: 3px;
+        width: max-content;
+        left: 25%;
+    }
+
+    #section-b p{
+        visibility: collapse;
+    }
+
+}
+
+@media(max-width:1000px) {
+    .grid-items{
+        background: #cccccc;
+        height: 70px;
+        margin-left: 10px;
+        flex-shrink: 1;
+        width: 70px;
+        opacity: 0.4;
+    }
+
+    .grid .grid-items p{
+        position: relative;
+        top: 50%;
+        font-size: 10px;
+        width: max-content;
+        left: 25%;
+    }
+}

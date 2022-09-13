@@ -1,0 +1,130 @@
+.faq-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+
+  .faq-buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .button {
+      background: white;
+      padding: 20px;
+      padding-left: 50px !important;
+      padding-right: 50px !important;
+      color: black;
+      font-size: 16px;
+      border-radius: 5px;
+      border-width: 1px;
+      border-style: solid;
+      border-color: rgba(97, 114, 131, 0.2);
+      margin: 20px;
+
+      cursor: pointer;
+    }
+
+    .active {
+      background: #35b8be;
+      background-position: 0px 0px;
+      background-image: url("../images/Button-Wave.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      color: white;
+    }
+  }
+
+  .faq-items {
+    width: 75%;
+
+    .faq {
+      cursor: pointer;
+      margin: 20px;
+
+      .faq-question {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+        padding-bottom: 50px;
+
+        .question {
+          color: #35b8be;
+          font-size: 18px;
+          font-weight: bold;
+        }
+      }
+
+      .faq-answer {
+        padding-top: 20px;
+
+        p {
+          color: #7e828f;
+          font-size: 18px;
+          line-height: 1.5;
+          letter-spacing: -0.25px;
+        }
+      }
+    }
+  }
+}
+
+.show {
+  display: block;
+  animation: 1s ease-out 0s 1 slideDown;
+}
+@keyframes slideDown {
+  0% {
+    transform: translateY(0%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+    transform-style: preserve-3d;
+  }
+}
+
+.hide {
+  display: none;
+}
+
+.cross {
+  width: 20px;
+  height: 20px;
+  border-radius: 100px;
+  text-align: center;
+  border-color: gray;
+  border-style: solid;
+  color: gray;
+  border-width: 2px;
+  font-weight: bold;
+  transform: rotate(45deg);
+}
+
+.plus {
+  width: 20px;
+  height: 20px;
+  font-weight: bold;
+  border-radius: 100px;
+  text-align: center;
+  border-color: gray;
+  color: gray;
+  border-style: solid;
+  border-width: 2px;
+}
+
+@keyframes makeCross {
+  0% {
+    transform: rotate(0deg);
+    opacity: 0;
+  }
+
+  100% {
+    transform: rotate(45deg);
+    opacity: 1;
+  }
+}

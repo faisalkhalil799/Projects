@@ -1,0 +1,22 @@
+.grid{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.grid .grid-items p{
+    top: 50%;
+    width: max-content;
+    left: 25%;
+}
+
+.grid-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #cccccc;
+    height: 150px;
+    margin-left: 10px;
+    width: 150px;
+    opacity: 0.4;
+}

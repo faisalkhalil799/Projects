@@ -1,0 +1,133 @@
+#main-div{
+    display: block;
+    position: relative;
+    height: 300px;
+    width: 800px;
+    margin: auto;
+    padding-top: 150px;
+}
+
+body{
+    background-color: #E6E3E3;
+}
+
+.fb{
+    display: inline-block;
+    text-align: left;
+}
+
+#facebook-div{
+    background-color: #E6E3E3;
+    width: 300px;
+    height: 300px;
+    padding-left: 20px;
+    vertical-align: top;
+    padding-top: 60px;
+    margin: 0 30px;
+}
+
+#login-div{
+    background-color: white;
+    width: 305px;
+    border-radius: 8px;
+}
+
+#login-div a{
+    color: #4267B2;
+    font-size: 12px;
+    text-align: center;
+}
+
+#email{
+    width: 270px;
+    margin-left: 10px;
+    border-color: gray;
+    margin-top: 15px;
+    border-radius: 5px;
+    margin-right: 10px;
+    border-width: 1px;
+    padding: 7px;
+
+}
+
+#password{
+    width: 270px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border-color: gray;
+    margin-top: 10px;
+    border-width: 1px;
+    margin-right: 10px;
+    padding: 7px;
+}
+
+#submit{
+    width: 280px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-width: 1px;
+    color: white;
+    border-radius: 5px;
+    background-color: #4267B2;
+    border-color: #4267B2;
+    margin-right: 10px;
+    padding: 5px;
+
+}
+
+.fp{
+    margin-top: 10px;
+    text-align: center;
+    padding:1em;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+#facebook{
+    color: #4267B2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+#createAccount{
+    background-color: #22FF00;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-bottom: 20px;
+    margin-right: auto;
+    border-color: #22FF00 ;
+    border-width: 1px;
+    color: white;
+    padding: 5px;
+    font-style: normal;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#createpage{
+    background-color: #E6E3E3;
+    padding-top: 10px;
+    height: 40px;
+    color: black;
+}
+
+#createpage a{
+    font-size: 12px;
+    color: black;
+}
+
+#createpage label{
+    font-size: 12px;
+}
+
+hr{
+    margin-right: 10px;
+    margin-left: 10px;
+}
